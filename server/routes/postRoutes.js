@@ -9,9 +9,9 @@ dotenv.config();
 const router = express.Router();
 
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
+  cloud_name: 'dhrbw0j0h',
+  api_key: '728327597297555',
+  api_secret: 'EIgtrIEeE22XQEjQxGUg6h3dBvw',
 });
 
 router.route('/').get(async (req, res) => {
